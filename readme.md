@@ -8,7 +8,7 @@ Este repositório contém a implementação do Trabalho Prático 3 (QoSI), simul
 
 O caminho de dados implementa uma cadeia de Funções de Rede Virtualizadas (SFC) estruturada da seguinte forma:
 
-$$\text{LAN Clientes } (\text{s1}) \longrightarrow \texttt{vnf\_cls} \longrightarrow \texttt{vnf\_acl} \longrightarrow \texttt{vnf\_qos} \longrightarrow \texttt{r\_isp} \longrightarrow \texttt{r\_core} \longrightarrow \text{LAN Servidores } (\text{s2})$$
+$$\text{LAN Clientes } (\text{s1}) \longrightarrow \texttt{vnf\cls} \longrightarrow \texttt{vnf\acl} \longrightarrow \texttt{vnf\qos} \longrightarrow \mathbf{r\isp} \longrightarrow \mathbf{r\core} \longrightarrow \text{LAN Servidores } (\text{s2})$$
 
 * **Rede de Clientes (`s1`):** Sub-rede `172.20.10.0/24` (inclui nós de VoIP, Vídeo, Dados e Tráfego Indesejado).
 * **Cadeia SFC:**
